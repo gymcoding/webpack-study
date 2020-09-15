@@ -1,0 +1,14 @@
+@font-face {
+  font-family: 'MyFont';
+  src:  url('./TmoneyRoundWindExtraBold.ttf') format('ttf'),
+        url('./TmoneyRoundWindRegular.ttf') format('ttf');
+  font-weight: 600;
+  font-style: normal;
+}
+
+.hello {
+  color: red;
+  height: 300px;
+  font-family: 'MyFont';
+  background: url('./icon.png');
+}
